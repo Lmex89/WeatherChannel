@@ -3,7 +3,7 @@ import React, {useState, useEffect} from 'react';
 const Weatercomponent = () => {
   const [coords, setCoords] = useState();
   const [weather, setWeather] = useState();
-
+    console.log(coords);
   const getCoordenates = () => {
     const coords = {
       lat: '',
