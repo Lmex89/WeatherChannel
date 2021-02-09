@@ -13,12 +13,12 @@ body {
 
 .App {
     background: #71319b;
-    width: 40rem;
-    margin: 10rem auto;
-    border-radius: 10px;
-    padding: 3rem;
 }
 
 .card {
     border-radius: 10px;
+    height: 100%;
+    margin: 3rem auto;
+    border-radius: 10px;
+    padding: 10px;
 }

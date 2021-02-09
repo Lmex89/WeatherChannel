@@ -43,7 +43,7 @@ const Weatercomponent = () => {
   if (weather) {
     console.log(weather.coord.lat);
     return (
-      <div className="card col-12 col-sm-8 col-md-6 d-flex justify-content-center">
+      <div className="card col-8 col-sm-8 col-md-8  shadow p-3 mb-5 bg-white rounded  d-flex justify-content-center">
         <div className="card-body">
           <h2>Weather Channel</h2>
           <p>Latitude: {weather.coord.lat}</p>
